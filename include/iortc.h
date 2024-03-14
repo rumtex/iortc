@@ -2,7 +2,7 @@
 #include <unistd.h>
 
 static const char blink[]            = {0x1b, '[', '1', ';', '0', '5', 'm', 0};
-static const char ang_5degree[]    = {0x1b, '[', '1', ';', '0', '3', 'm', 0};
+static const char ang_5degree[]      = {0x1b, '[', '1', ';', '0', '3', 'm', 0};
 static const char exception_line[]   = {0x1b, '[', '1', ';', '0', '9', 'm', 0};
 static const char underline[]        = {0x1b, '[', '1', ';', '0', '4', 'm', 0};
 static const char double_underline[] = {0x1b, '[', '1', ';', '2', '1', 'm', 0};
